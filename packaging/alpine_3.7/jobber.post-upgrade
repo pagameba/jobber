@@ -1,0 +1,10 @@
+#!/bin/sh
+
+DAEMON=/usr/libexec/jobbermaster
+
+# set owner and perms of binaries
+chown root:root "${DAEMON}"
+chmod 0755 "${DAEMON}"
+
+# restart jobber
+rc-service jobber condrestart

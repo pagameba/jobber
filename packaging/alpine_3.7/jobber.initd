@@ -1,0 +1,15 @@
+#!/sbin/openrc-run
+
+name="jobber"
+command="/usr/libexec/jobbermaster"
+pidfile="/var/run/jobbermaster.pid"
+command_args=""
+
+depend() {
+	need logger
+}
+
+start() {
+    start-stop-daemon -b --pidfile="${pidfile}" --make-pidfile "${command}" ${command_args}
+}
+
