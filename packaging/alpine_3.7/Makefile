@@ -20,8 +20,8 @@ PKGFILE_VM_PATH = ${PKGFILE}
 PACKAGING_SUBDIR = alpine_3.7
 INSTALL_PKG_CMD = apk add --allow-untrusted ${PKGFILE}
 UNINSTALL_PKG_CMD = apk remove jobber
-SRC_TARBALL = jobber.tgz
-SRC_TARBALL_DIR = jobber
+SRC_TARBALL = jobber-1.4.0.tgz
+SRC_TARBALL_DIR = jobber-1.4.0
 
 .PHONY : pkg-local
 pkg-local : ${WORK_DIR}/${SRC_TARBALL} ${PKGFILE_DEPS}
