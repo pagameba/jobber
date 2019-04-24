@@ -1,4 +1,5 @@
 include packaging/alpine_3.6/sources.mk
+include packaging/alpine_3.7/sources.mk
 include packaging/centos_6/sources.mk
 include packaging/centos_7/sources.mk
 include packaging/debian_9/sources.mk
