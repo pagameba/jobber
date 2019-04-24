@@ -6,7 +6,8 @@ include packaging/debian_9/sources.mk
 include packaging/darwin/sources.mk
 
 PACKAGING_SOURCES := \
-	${ALPINE_SOURCES} \
+	${ALPINE_36_SOURCES} \
+	${ALPINE_37_SOURCES} \
 	${CENTOS_6_SOURCES} \
 	${CENTOS_7_SOURCES} \
 	${DARWIN_SOURCES} \

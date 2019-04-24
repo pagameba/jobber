@@ -1,4 +1,4 @@
-ALPINE_SOURCES = \
+ALPINE_37_SOURCES = \
 	packaging/alpine_3.7/APKBUILD \
 	packaging/alpine_3.7/jobber.initd \
 	packaging/alpine_3.7/jobber.post-deinstall \
