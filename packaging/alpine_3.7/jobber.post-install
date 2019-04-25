@@ -8,4 +8,3 @@ chmod 0755 "${DAEMON}"
 
 # start jobber
 rc-update add jobber
-rc-service -N jobber start
